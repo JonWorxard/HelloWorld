@@ -1,0 +1,18 @@
+// My First C# CEEHASH Program 
+
+using System;
+namespace MyNamespace
+{
+    class Hello
+    {
+        static void Main()
+        { 
+            Console.WriteLine("Hello World!");
+
+            // Code to keep console open
+
+            Console.WriteLine("Press a Key, Doofus!");
+            Console.ReadKey();
+        }
+    }
+}
